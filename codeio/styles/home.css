@@ -1,0 +1,101 @@
+.content-wrapper {
+    background: radial-gradient(circle farthest-corner at 200px 0, rgb(87, 89, 100), #000);
+    background-position: top left;
+    position: relative;
+    height: 550px;
+    width: 100%;
+    margin: 0px;
+    font-weight: lighter;
+    display: flex;
+}
+
+.heading {
+    font-size: 45px;
+    padding-left: 50px;
+    padding-top: 100px;
+    line-height: 1.2;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.left-column > .info {
+    font-size: 29px;
+    padding-left: 50px;
+    padding-top: 20px;
+    color: #bebebe;
+    font-weight: 400;
+}
+
+.content-buttons {
+    display: flex;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+
+.content-buttons button {
+    border: 1px solid #111111;
+    border-radius: 3px;
+    outline: none;
+    background-color: #111111;
+    color: white;
+    font-size: 30px;
+    margin-right: 10px;
+    padding: 10px 16px;
+}
+
+.content-buttons > .content-button-green button {
+    background-color: #4DD374;
+    border: 1px solid #4DD374;
+    color: #111111;
+}
+
+.content-buttons > .content-button button {
+    background-color: #111111;
+    border: 1px solid #111111;
+}
+
+
+.image-wrapper img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 470px;
+    box-shadow: -4px -3px 7px -1px rgba(0,0,0,0.72);
+}
+
+.image-wrapper > .image-text {
+    position: absolute;
+    right: 0;
+    padding-top: 50px;
+    padding-right: 385px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.image-wrapper > .image-text a {
+    text-decoration: none;
+    color: #76daff;
+}
+
+.features-wrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.features-wrapper > .feature {
+    width: 25%;
+    height: 50px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: rgb(87, 89, 100);
+    border: 1px solid #7a7a7a;
+}
+
+.pop {
+    font-size: 23px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+}
